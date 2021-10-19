@@ -26,6 +26,30 @@ eventFactory.emit(
 )
 ```
 
+You can turn off events using the `off` function:
+
+```
+import EventFactory from 'event-factory';
+
+const eventFactory = new EventFactory();
+const handler = function (payload) {
+    console.log(payload);
+};
+
+eventFactory.on("message", handler);
+
+eventFactory.emit(
+    "message",
+    { messsage: "Hello, world!" }
+)
+
+// Turns off the event associated only with the handler
+eventFactory.off("message", handler);
+
+// Turns off all callbacks associated with the event
+eventFactory.on("message");
+```
+
 It is also possible to chain functions together:
 
 ```
