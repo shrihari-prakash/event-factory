@@ -1,6 +1,6 @@
 {
   "name": "event-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pluggable event broker for Browser and Node.JS",
   "main": "index.js",
   "scripts": {
