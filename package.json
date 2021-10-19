@@ -1,0 +1,11 @@
+{
+  "name": "event-factory",
+  "version": "1.0.0",
+  "description": "A pluggable event broker for Browser and Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shrihari Prakash",
+  "license": "ISC"
+}
