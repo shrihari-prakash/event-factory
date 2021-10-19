@@ -96,4 +96,8 @@ EventFactory.prototype.emit = function (eventName, payload) {
   return this;
 };
 
-module.exports = EventFactory;
+if (typeof module === "object" && typeof module.exports === "object") {
+  module.exports = EventFactory;
+} else {
+  window.EventFactory = EventFactory;
+}
