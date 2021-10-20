@@ -1,6 +1,6 @@
 {
   "name": "event-factory",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A pluggable event broker for Browser and Node.JS",
   "main": "index.js",
   "repository": {
@@ -12,5 +12,14 @@
   },
   "author": "Shrihari Prakash",
   "license": "ISC",
-  "homepage": "https://github.com/Shrihari-Prakash/event-factory"
+  "homepage": "https://github.com/Shrihari-Prakash/event-factory",
+  "keywords": [
+    "events",
+    "event",
+    "event bus",
+    "event emitter",
+    "browser events",
+    "message passing",
+    "event factory"
+  ]
 }
