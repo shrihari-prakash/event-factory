@@ -77,7 +77,7 @@ myObj
   })
 
 myObj
-  .emit("connection", { messsage: "Hello, world!" });
+  .emit("message", { messsage: "Hello, world!" });
 ```
 
 #### Usage with vanilla JavaScript
@@ -94,7 +94,7 @@ myObj
     })
 
     eventFactory
-      .emit("connection", { messsage: "Hello, world!");
+      .emit("message", { messsage: "Hello, world!");
   </script>
 </body>
 ```
