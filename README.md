@@ -47,7 +47,7 @@ eventFactory.emit(
 eventFactory.off("message", handler);
 
 // Turns off all callbacks associated with the event
-eventFactory.on("message");
+eventFactory.off("message", eventFactory.ALL_LISTENERS);
 ```
 
 It is also possible to chain functions together:
